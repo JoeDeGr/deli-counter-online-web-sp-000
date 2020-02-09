@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     enumeratel_line = []
-    katz_deli.each_with_index {|a,i| 
+    katz_deli.each_with_index {|a,i|
     enumerated_line << "(i+1). a" }
     puts enumerated_line
   end
