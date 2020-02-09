@@ -4,8 +4,10 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
+    enumerated_line = []
     katz_deli.each_with_index {|a, i|
-    puts "The line is currently: #{i + 1}. #{a}"}
+    enumerated_line << "#{i + 1}. #{a}" }
+    puts "The line is currently: +#{enumerated_line}"
   end
 end
 
